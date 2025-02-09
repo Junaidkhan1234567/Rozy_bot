@@ -6,7 +6,7 @@ import secrets
 import time
 import mimetypes
 from aiohttp.http_exceptions import BadStatusLine
-from Jisshu.bot import multi_clients, work_loads, JisshuBot
+from Wolverine.bot import multi_clients, work_loads, Wolverinebot
 from Jisshu.server.exceptions import FIleNotFound, InvalidHash
 from Jisshu import StartTime, __version__
 from Jisshu.util.custom_dl import ByteStreamer
